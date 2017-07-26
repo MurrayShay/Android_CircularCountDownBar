@@ -51,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 .setProgressColor(Color.BLUE)
                 .setStrokeWidth(30)
                 .setTextColor(Color.RED)
+                .setPadding(15,15,15,15)
+                .setRoundedCorners(false)
+                .setDrawText(true)
                 .build();
 
         LinearLayout.LayoutParams params1 = new LinearLayout.LayoutParams(350,350);
