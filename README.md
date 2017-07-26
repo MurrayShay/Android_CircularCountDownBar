@@ -19,8 +19,8 @@ for width and height will be used as diameter of the circle.
                        .build();
 
        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(350,350);
-       params1.gravity = Gravity.CENTER;
-       params1.topMargin = 30;
+       params.gravity = Gravity.CENTER;
+       params.topMargin = 30;
 
        linearLayout.addView(countDownBar, params);
 ```
@@ -54,7 +54,7 @@ You can change the progress calling (with a value between 0 and MaxProgress):
 ```
 
 The progress bar is customizable by changing any of the available settings
-using innerBuilder design pattern like alertDialog in android.git
+using innerBuilder design pattern like alertDialog in android
 
 ``` JAVA
         public Builder setMaxProgress(int maxProgress)
