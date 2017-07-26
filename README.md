@@ -1,4 +1,6 @@
 # CircularCountDownBar
+How to create a circular progressbar programmatically?
+This article will tell you, please read down.
 ![github](https://github.com/MurrayShay/Android_CircularCountDownBar/blob/master/CircularCountDownBar.gif "github")
 
 Simple single android view component that can be used to showing a round progress bar. It can be customized with
